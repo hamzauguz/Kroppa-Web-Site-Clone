@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-full  text-black;
+  }
+  #root {
+    @apply flex flex-col;
+  }
+  .wrapper {
+    height: calc(100% - theme('spacing.24'));
+    @apply flex;
+  }
+  .hamza {
+    @apply text-red-600;
+  }
+
+  .headerTitle {
+    @apply decoration hover:text-red-500   text-xl text-header text-opacity-100 no-underline block;
+  }
+}
