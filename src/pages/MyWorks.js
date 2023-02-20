@@ -1,5 +1,5 @@
-import Hamza from 'filter/Hamza'
+import CardPlace from "filter/CardPlace";
 
 export default function MyWorks() {
-  return <Hamza />
+  return <CardPlace />;
 }
